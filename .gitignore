@@ -128,3 +128,65 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyo
+*.pyo
+.pytest_cache
+.venv
+env/
+venv/
+ENV/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.pot
+*.py[co]
+
+# FastAPI/Uvicorn specifieke files
+*.pid
+*.sock
+
+# IDE specifieke files (optioneel maar aanbevolen)
+.vscode/
+.idea/
+
+# Docker (indien gebruikt)
+*.dockerignore
+Dockerfile.*
+
+# Secrets & credentials
+.env
+.env
+.secret
+credentials.json
+*.key
+
+# macOS-specifieke files (optioneel)
+.DS_Store
+
+# Windows specifieke files
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
+
+# Overige build folders (Frontend)
+build/
+dist/
+
+# Optionele productie config-files
+.env
+
